@@ -6,3 +6,5 @@ from PIL import Image
 img=Image.open(path)
 plt.imshow(img)
 plt.show()
+import numpy as np
+print(np.arange(1,10,2))
